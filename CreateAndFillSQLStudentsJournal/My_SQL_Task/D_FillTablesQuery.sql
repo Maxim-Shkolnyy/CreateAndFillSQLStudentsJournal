@@ -1,0 +1,50 @@
+INSERT INTO COURSES(NAME, DESCRIPTION) VALUES
+
+('CR-01', 'Course 1'),
+('CR-02', 'Course 2'),
+('CR-03', 'Course 3')
+GO
+
+INSERT INTO GROUPS(COURSE_ID, NAME) VALUES
+
+(1,'SR-01'),
+(1, 'SR-02'),
+(2, 'SR-03'),
+(3, 'SR-04')
+GO
+
+INSERT INTO STUDENTS(FIRST_NAME, LAST_NAME, GROUP_ID) VALUES
+
+('ST_NAME_1', 'ST_S_NAME_1', 1), 
+('ST_NAME_2', 'ST_S_NAME_1', 1),
+('ST_NAME_3', 'ST_S_NAME_3', 1),
+('ST_NAME_4', 'ST_S_NAME_3', 1),
+('ST_NAME_5', 'ST_S_NAME_4', 1),
+('ST_NAME_6', 'ST_S_NAME_5', 1),
+('ST_NAME_7', 'ST_S_NAME_6', 1),
+('ST_NAME_8', 'ST_S_NAME_7', 1),
+('ST_NAME_9', 'ST_S_NAME_8', 1),
+('ST_NAME_10', 'ST_S_NAME_9', 1),
+('ST_NAME_11', 'ST_S_NAME_10', 1),
+
+('ST_NAME_12', 'ST_S_NAME_11', 2),
+('ST_NAME_13', 'ST_S_NAME_12', 2),
+('ST_NAME_14', 'ST_S_NAME_13', 2),
+('ST_NAME_15', 'ST_S_NAME_14', 2),
+
+('ST_NAME_16', 'ST_S_NAME_15', 3),
+('ST_NAME_17', 'ST_S_NAME_15', 3),
+('ST_NAME_18', 'ST_S_NAME_15', 3),
+('ST_NAME_19', 'ST_S_NAME_16', 3),
+('ST_NAME_20', 'ST_S_NAME_17', 3),
+('ST_NAME_21', 'ST_S_NAME_18', 3),
+('ST_NAME_22', 'ST_S_NAME_19', 3),
+('ST_NAME_23', 'ST_S_NAME_20', 3),
+('ST_NAME_24', 'ST_S_NAME_21', 3),
+('ST_NAME_25', 'ST_S_NAME_22', 3),
+('ST_NAME_26', 'ST_S_NAME_23', 4),
+('ST_NAME_27', 'ST_S_NAME_24', 4),
+('ST_NAME_28', 'ST_S_NAME_24', 4),
+('ST_NAME_29', 'ST_S_NAME_26', 4),
+('ST_NAME_30', 'ST_S_NAME_27', 4)
+GO

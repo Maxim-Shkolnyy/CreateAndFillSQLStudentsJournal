@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="My_SQL_Task">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(localdb)\Local:MAX-N\shmax">
+          <Created>2022-11-20T22:16:55.4337772+02:00</Created>
+          <Type>SQL</Type>
+          <Server>(localdb)\Local</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="A_CreateCourses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>A_CreateCourses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="B_CreateGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>B_CreateGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="C_CreateStudents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>C_CreateStudents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="D_FillTablesQuery.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>D_FillTablesQuery.sql</FullPath>
+        </FileNode>
+        <FileNode Name="E_LessThen10inGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>E_LessThen10inGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="F_DelSR-01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>F_DelSR-01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="G_FindNamesOfStudents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(localdb)\Local:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(localdb)\Local</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>G_FindNamesOfStudents.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
